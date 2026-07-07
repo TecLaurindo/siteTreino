@@ -13,7 +13,7 @@ import java.util.List;
 public class MensalidadeController {
 
     @Autowired
-    private MensalidadeServiceCamp mensalidadeService;
+    private MensalidadeService mensalidadeService;
 
     // Criar uma nova cobrança (POST http://localhost:8080/api/mensalidades)
     @PostMapping
